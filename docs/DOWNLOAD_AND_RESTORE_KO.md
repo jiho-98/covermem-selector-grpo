@@ -8,7 +8,7 @@
 - [01_selector_GRPO_AB](https://drive.google.com/drive/folders/1U-sRqGiPvWDK5m0ozJzIaQNwMWuIyWFA): A/B 자료
 - [02_branch_GRPO](https://drive.google.com/drive/folders/1esQN9iQvEdGWxDVirHcLZPcfAQYXIWqq): 세 번째 실험 자료
 
-2026-10-24 업로드 시 폴더는 소유자 전용이었다. Google 계정으로 접근할 수 없으면 소유자에게 해당 계정의 읽기 권한을 요청한다. GitHub 두 저장소도 비공개이며 별도의 GitHub 접근 권한이 필요하다. 권한이 부여되었다고 가정하거나 파일을 공개로 전환하지 않는다.
+GitHub 두 저장소는 2026-10-24 Public으로 전환되어 로그인·초대 없이 HTTPS로 clone할 수 있다. Drive는 최초 업로드 시 소유자 전용이었다. 로그인 없이 자료를 받으려면 소유자가 전달 폴더의 공유 → 일반 액세스 → 링크가 있는 모든 사용자 → 뷰어를 설정해야 한다. Drive에서 접근 요청 화면이 나오면 소유자에게 해당 설정 확인을 요청한다. GitHub 공개 전환이 Drive 권한도 자동 변경하는 것은 아니다.
 
 각 하위 폴더를 **파일명 그대로 전부** 내려받는다. Drive가 다운로드용 ZIP으로 묶어주면 먼저 그 ZIP을 푼다. `.part001` 파일 하나를 압축 해제하지 않는다. 파일명에 `(1)` 등이 붙은 중복 다운로드본과 원래 조각을 섞지 않는다.
 

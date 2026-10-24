@@ -24,7 +24,7 @@ REPLACE 실행 시 삭제 대상을 고르는 별도 LoRA를 학습하는 A/B �
 
 ## GitHub 코드 + 전달 ZIP으로 준비
 
-이 저장소는 비공개다. 저장소 소유자가 박사님 GitHub 계정에 접근 권한을 부여하고 초대를 수락해야 clone할 수 있다. GitHub 계정 없이도 전체 ZIP을 풀어 동일 코드로 실행할 수 있다.
+2026-10-24 사용자 요청으로 Public으로 전환했다. GitHub 로그인이나 초대 없이 아래 HTTPS 주소로 열람·clone할 수 있다. 어댑터·데이터는 별도 Drive 전달 자료에서 가져온다.
 
 Git에는 코드·config·환경 고정 파일·문서·원본 코드 스냅샷이 포함된다. **`assets/`, `adapters/`, 베이스 모델, 실행 결과는 포함하지 않는다.** 데이터와 SFT/LOO/H1/배치 LOO 어댑터는 별도 `CoverMem_selector_GRPO_AB_full.zip`에서 가져온다. 베이스 모델은 고정 revision으로 다운로드한다.
 

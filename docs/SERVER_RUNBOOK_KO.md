@@ -35,7 +35,7 @@ command -v sbatch || true
 
 ### 방법 1: GitHub clone + 전달 ZIP에서 입력 가져오기
 
-저장소 소유자가 박사님 계정에 초대하고 초대가 수락되어 있어야 한다. 비공개 repo에 대한 평소 GitHub HTTPS/SSH 인증을 사용한다.
+저장소는 Public이다. 아래 HTTPS clone에는 GitHub 로그인·초대·토큰이 필요하지 않다. SSH 주소를 선택한 경우에는 SSH 인증이 별도로 필요하다.
 
 ```bash
 git clone https://github.com/jiho-98/covermem-selector-grpo.git
@@ -262,7 +262,7 @@ B의 stage ID는 `B_joint_smoke`, `B_joint_train`, `B_joint_eval`이다. smoke�
 
 | 증상 | 확인/조치 |
 |---|---|
-| `Repository not found` | 비공개 저장소 초대 수락과 Git 인증 확인. 전체 ZIP으로도 실행 가능 |
+| `Repository not found` | 공개 HTTPS 주소의 철자와 서버 네트워크/프록시 확인. 전체 ZIP으로도 실행 가능 |
 | 입력 SHA256 mismatch | 받은 ZIP/기존 입력 확인. 변경된 입력 위에 덮어쓰지 말고 새 checkout 사용 |
 | runtime version mismatch | Python3.10과 `.venv`, `environment.lock.json` 대조 |
 | `Expose exactly one GPU` | 한 작업에 GPU 한 장만 노출. Slurm mask/step 확인 |
