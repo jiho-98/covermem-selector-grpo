@@ -10,7 +10,7 @@ REPLACE 실행 시 삭제 대상을 고르는 별도 LoRA를 학습하는 A/B �
 | B | SFT부터 매니저와 선택기를 독립 LoRA/optimizer로 학습 | `configs/B_joint.json` | `configs/vanilla_control.json`, 같은 실행 엔진의 기준선 |
 | A-H1, 선택 사항 | A의 시작 매니저만 완료 H1으로 변경 | `configs/A_h1.json` | 해당 H1의 selector-off 평가 |
 
-선택기 local advantage와 매니저 기존 LOO advantage는 별개다. 같은 REPLACE의 10개만 상대 비교하며, 다른 경로의 후보를 한 group에 섞지 않는다. 실제 경로는 미리 지정한 샘플 0으로 계속 진행한다. K=10은 생성 수이며 고유 ID 10개를 보장하지 않는다. 세 번째 연구안은 아직 사용자 명세 대기 중이다.
+선택기 local advantage와 매니저 기존 LOO advantage는 별개다. 같은 REPLACE의 10개만 상대 비교하며, 다른 경로의 후보를 한 group에 섞지 않는다. 실제 경로는 미리 지정한 샘플 0으로 계속 진행한다. K=10은 생성 수이며 고유 ID 10개를 보장하지 않는다. 세 번째 연구안인 단일 매니저 95% 전환 분기 GRPO는 [별도 저장소](https://github.com/jiho-98/covermem-branch-grpo)에 구현했다. 그 기본값 K=4,p=0.25는 이 저장소의 A/B K=10과 구분한다.
 
 ## 먼저 읽기
 

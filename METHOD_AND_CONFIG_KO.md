@@ -106,4 +106,4 @@ R은 실제 새 rollout에서 측정해야 한다. 과거의 414건이나 평가
 
 설정 schema는 `covermem.selector_grpo.v2`이며, 이전 시간 비율 필드를 포함하거나 K가 10이 아니면 실행을 거절한다. 새 출력 경로는 `runs/allq_k10/<실험>`이다. 이전 7:3 보상으로 학습한 checkpoint를 이 조건으로 이어서 학습하지 않는다. 최초 전달본은 패키지 바깥 `revisions/temporal_mix_superseded_20261024/`에 보존했다.
 
-세 번째 실험은 아직 정의되지 않았다. 이 코드를 수정할 때 조건·출력 디렉토리·fingerprint를 분리하고, 기존 A/B 결과 및 어댑터를 덮어쓰지 않는다.
+세 번째 실험은 [covermem-branch-grpo](https://github.com/jiho-98/covermem-branch-grpo)에 별도로 구현했다. 해당 실험은 하나의 매니저, 세션 경계95% 전환, K=4,p=0.25를 사용한다. 코드·출력·fingerprint를 분리하며 기존 A/B 결과와 어댑터를 덮어쓰지 않는다.

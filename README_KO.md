@@ -17,7 +17,7 @@
 | `configs/B_joint.json` | SFT에서 매니저 GRPO + 독립 선택기 GRPO를 같은 수집 배치 뒤에 각각 업데이트 | SFT 어댑터 |
 | `configs/vanilla_control.json` | 같은 이식용 실행 엔진에서 원래 LOO를 학습하는 비교 기준선 | SFT 어댑터 |
 
-**세 번째 연구 실험은 사용자 조건을 받은 뒤 작성할 예정이며, 위 기준선이나 A의 H1 초기화 선택지를 세 번째 연구안으로 대신하지 않는다.**
+**세 번째 연구 실험은 [별도 저장소](https://github.com/jiho-98/covermem-branch-grpo)에 구현했다.** 단일 매니저가 네 경로의 세션끝95% 조건을 충족한 다음 세션부터 분기 GRPO로 전환하며 기본 K=4,p=0.25다. 이 저장소의 A/B 및 H1 초기화 선택지와 다른 실험이다.
 
 - `cmselect/`: 새 학습·평가 구현. `train.py`, `rollout.py`, `selection.py`, `backend.py`가 핵심이다.
 - `adapters/{sft,loo,h1,loo_batch5}/`: 실제 완료된 어댑터 가중치와 PEFT config. 어댑터만으로 모델을 실행할 수 없으므로 아래의 베이스 모델이 필요하다.
