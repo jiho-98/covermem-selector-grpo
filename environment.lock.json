@@ -1,0 +1,19 @@
+{
+  "python_major_minor": "3.10",
+  "packages": {
+    "torch": "2.11.0",
+    "transformers": "5.8.0",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "safetensors": "0.8.0",
+    "numpy": "2.2.6",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "1.20.1"
+  },
+  "legacy_extra": {
+    "vllm": "0.22.0",
+    "verl_tag": "v0.7.1",
+    "verl_commit": "bec9ef74768dd201881cd4e54cd0385e87caae27"
+  },
+  "portable_backend": "No vLLM/verl runtime dependency; original sources included for audit."
+}

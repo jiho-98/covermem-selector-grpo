@@ -1,0 +1,95 @@
+{
+  "schema": "covermem.selector_grpo.v2",
+  "variant": "vanilla",
+  "paths": {
+    "base_model": "models/Qwen3-4B-Instruct-2507",
+    "tokenizer": "assets/tokenizer",
+    "assets": "assets",
+    "manager_adapter": "adapters/sft",
+    "manager_reference": "adapters/sft",
+    "selector_adapter": "adapters/sft",
+    "output": "runs/allq_k10/vanilla_control"
+  },
+  "environment": {
+    "bank_budget_chars": 43500,
+    "streams": 4,
+    "max_action_attempts": 3
+  },
+  "manager_reward": {
+    "complete": 0.7,
+    "recall": 0.3,
+    "mid_weight": 0.5,
+    "end_weight": 0.5,
+    "std_correction": 0,
+    "epsilon": 1e-08,
+    "invalid_advantage_ceiling": -0.5,
+    "credit_assignment": {
+      "estimator": "pre_action_bank_loo_continuation_gain_v1",
+      "fixed_scale": 0.008103060640792133,
+      "calibration_file": "calibration.json",
+      "calibration_weighting": "valid outputs; response length / all response tokens of session",
+      "peer_alignment": "original_turn_first_attempt_exclude_own_trajectory"
+    }
+  },
+  "selector": {
+    "samples_per_replace": 10,
+    "score_mode": "full_pool_bank_delta",
+    "invalid_reward": -2.0,
+    "invalid_fallback": "original_manager_target",
+    "executed_sample_index": 0,
+    "advantage": {
+      "mode": "group_std",
+      "epsilon": 1e-08,
+      "fixed_scale": 0.008103060640792133
+    },
+    "question_pool": "all_generated_questions_same_conversation"
+  },
+  "rollout": {
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "manager_max_new_tokens": 8192,
+    "selector_max_new_tokens": 128,
+    "max_model_len": 32768
+  },
+  "training": {
+    "seed": 42,
+    "ppo_epochs": 1,
+    "session_batch_size": 1,
+    "manager_learning_rate": 5e-06,
+    "selector_learning_rate": 5e-06,
+    "weight_decay": 0.0,
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "clip_ratio": 0.2,
+    "manager_kl_coef": 0.02,
+    "selector_kl_coef": 0.02,
+    "grad_clip": 1.0,
+    "gradient_checkpointing": true,
+    "dtype": "bfloat16",
+    "attention_implementation": "sdpa",
+    "logit_chunk_tokens": 128,
+    "manager_replace_mask": "action_value_only"
+  },
+  "validation": {
+    "max_mean_logprob_gap": 0.15,
+    "max_logprob_gap": 2.0
+  },
+  "checkpoint": {
+    "keep_last": 2
+  },
+  "execution": {
+    "require_slurm": false,
+    "cpu_threads": 4
+  },
+  "design_status": {
+    "base_model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "backend": "single_gpu_transformers_peft",
+    "score_scope": "all generated training questions in the current conversation, equally weighted; immediate before/after utility delta; no future rollout",
+    "target_server": "A100 40GB x 16, one GPU per experiment",
+    "selector_question_pool_and_K": "user selected full conversation generated question pool and K=10 (2026-10-24)",
+    "selector_normalization": "group_std retained; not experimentally selected"
+  }
+}

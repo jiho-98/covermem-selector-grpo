@@ -1,0 +1,21 @@
+{
+  "assets/QG_COMPLETE.json": "15ef2517d7d23bb15c4844a5b31b67217c700d5bec3e67d57247acb254fbfc0a",
+  "assets/histories.json": "271039c3c72877282a44cb38faa0ba4a31088cee8f741e9d152a02e43f3f1f10",
+  "assets/locomo10_eval.json": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4",
+  "assets/questions.json": "72239152e605132a839fcb50a84a7e6cd5d77f39f53f4a54c76c844e833aa656",
+  "assets/split.json": "340ccbee8bff1cbdd6a73e5ff521cd92fe7088cbd7be528fd589a695bd3f8017",
+  "assets/tokenizer/config.json": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+  "assets/tokenizer/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+  "assets/tokenizer/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "assets/tokenizer/tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+  "assets/tokenizer/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+  "adapters/h1/adapter_config.json": "3d9e354720364b9156014c4277d57bb3841bc86a62ccc898d371c94960055136",
+  "adapters/h1/adapter_model.safetensors": "ee84cedd23e6fc02c901204a582ae4563b6783b31a1c8e58b382962a16efbb24",
+  "adapters/loo/adapter_config.json": "05c8ecd98db0ea5106be154b91b002c34bc47fcc5c1fa3883f56d84b741f9e4f",
+  "adapters/loo/adapter_model.safetensors": "58f9ed8bed4ce90d5b356d40f65678e804ca5d74968f32fe4ec70fdd69a6e549",
+  "adapters/loo_batch5/adapter_config.json": "27c7df0163f981d821973abf54a5e407704e3f7e82d7a7553712cd41db779623",
+  "adapters/loo_batch5/adapter_model.safetensors": "040ec5c036dd7b18e462a6cc3f0e8ac95512abf5bae761920a7ab5c4f3d0adbc",
+  "adapters/sft/adapter_config.json": "9a316c0ce554c7771865e5f77bbd98eaeeea7e0bd1a7a98c96624c8e6bf8107b",
+  "adapters/sft/adapter_model.safetensors": "7da11c2767971843a0190f7fd4e87301a48efde6321492ba8f7f5e72f9dcec20",
+  "assets/evaluation_histories.json": "3fa10d5d1ed8a4078866daf414089540887518c994ace08b27d3d7665613b4d7"
+}

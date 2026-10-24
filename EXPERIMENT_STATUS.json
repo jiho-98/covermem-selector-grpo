@@ -1,0 +1,30 @@
+{
+  "A": {"implementation": "complete", "cpu_validation": "passed", "gpu_validation": "not_run", "config": "configs/A_loo.json"},
+  "B": {"implementation": "complete", "cpu_validation": "passed", "gpu_validation": "not_run", "config": "configs/B_joint.json"},
+  "protocol_revision": "allq_k10_20261024",
+  "config_schema": "covermem.selector_grpo.v2",
+  "selector_reward": {
+    "question_pool": "all_generated_questions_same_conversation",
+    "score_mode": "full_pool_bank_delta",
+    "temporal_weighting": "none; equal weight per question",
+    "samples_per_replace": 10,
+    "bank_utility": "0.7 evidence coverage + 0.3 evidence recall",
+    "manager_reward": "unchanged original LOO credit"
+  },
+  "current_revision_validation": {
+    "cpu_tests": 25,
+    "training_protocol_tests": 21,
+    "asset_import_tests": 4,
+    "local_torch": "2.12.0",
+    "transformers": "5.8.0",
+    "peft": "0.19.1",
+    "log": "validation/cpu_tests_github_handoff.log",
+    "assets_preflight": "validation/assets_A_allq_k10.json",
+    "production_torch_2_11_retest": "not_run_for_this_revision; historical test only"
+  },
+  "third_experiment": {"implementation": "awaiting_user_specification", "config": null},
+  "target_hardware": "A100 40GB x 16",
+  "runner_topology": "one process and one GPU per independent experiment",
+  "gpu_jobs_started_in_authoring_environment": 0,
+  "external_delivery_to_collaborator": "not_sent; local package only"
+}

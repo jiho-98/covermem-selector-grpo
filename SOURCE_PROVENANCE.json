@@ -1,0 +1,9 @@
+{
+  "source_sha256": {
+    "/home/kimjh/Covermem/loo4_batch5_v1/frozen/covermem/active_policy.py": "2162c75b62fd6689d9f7d3044dde2ed37320437fce7d53ab635fef46b8f0bc1b",
+    "/home/kimjh/Covermem/persistent_grpo_verl_loo_v1/rewards.py": "dcf1f64860f55e47378664cfe65290e4e9c6a146141d834ef895720f2e978fa4",
+    "/home/kimjh/Covermem/persistent_grpo_verl_loo_v1/action_credit.py": "7d8355c922f412f51ad749ab41861446b2b1aa0ad89d70ddf0a645ce7e6de8f4",
+    "/home/kimjh/Covermem/persistent_grpo_verl_loo_v1/cumulative_questions.py": "f4e283e4accf9402978e7fde3641303a248c05519c9b30ff81e4803d3280568f"
+  },
+  "changes": "Relative imports; executor budget configurable for CPU fixtures. Original policy verbatim. Historical source also included under legacy."
+}

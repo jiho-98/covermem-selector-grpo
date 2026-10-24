@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "candidate_max_actions": [
+    1,
+    2,
+    4
+  ],
+  "max_padded_tokens": 98304,
+  "max_logit_vectors": 2048,
+  "max_padding_ratio": 1.2,
+  "safe_memory_fraction": 0.82,
+  "min_speedup": 1.03,
+  "gradient_relative_l2_tolerance": 0.02,
+  "update_relative_l2_tolerance": 0.03,
+  "oom_split_retry": true,
+  "reference_precompute": true,
+  "attention": "existing_sdpa_causal_no_mask",
+  "cuda_graph": false,
+  "rollout_changes": false
+}

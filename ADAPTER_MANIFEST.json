@@ -1,0 +1,43 @@
+{
+  "sft": {
+    "training": "complete",
+    "type": "SFT",
+    "weight_sha256": "7da11c2767971843a0190f7fd4e87301a48efde6321492ba8f7f5e72f9dcec20",
+    "config_sha256": "9a316c0ce554c7771865e5f77bbd98eaeeea7e0bd1a7a98c96624c8e6bf8107b",
+    "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554"
+  },
+  "loo": {
+    "training": "complete",
+    "type": "GRPO",
+    "weight_sha256": "58f9ed8bed4ce90d5b356d40f65678e804ca5d74968f32fe4ec70fdd69a6e549",
+    "config_sha256": "05c8ecd98db0ea5106be154b91b002c34bc47fcc5c1fa3883f56d84b741f9e4f",
+    "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "original_completion_record": "legacy/persistent_grpo_verl_loo_v1/records/TRAIN_COMPLETE.json",
+    "original_fingerprint": "45613e31ef726f128a12ece4ae95a4c0fd20deb90a8f18ea9af8aab417813cfd",
+    "completed_sessions": 142
+  },
+  "h1": {
+    "training": "complete",
+    "type": "GRPO",
+    "weight_sha256": "ee84cedd23e6fc02c901204a582ae4563b6783b31a1c8e58b382962a16efbb24",
+    "config_sha256": "3d9e354720364b9156014c4277d57bb3841bc86a62ccc898d371c94960055136",
+    "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "original_completion_record": "legacy/loo_future30_capacity90_20261019/records/TRAIN_COMPLETE.json",
+    "original_fingerprint": "3883680bff7bbb29e5749df81d3ffd13818706e345245fed6180861e01b4f2b5",
+    "completed_sessions": 142
+  },
+  "loo_batch5": {
+    "training": "complete",
+    "type": "GRPO",
+    "weight_sha256": "040ec5c036dd7b18e462a6cc3f0e8ac95512abf5bae761920a7ab5c4f3d0adbc",
+    "config_sha256": "27c7df0163f981d821973abf54a5e407704e3f7e82d7a7553712cd41db779623",
+    "base_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "base_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "original_completion_record": "legacy/loo4_batch5_v1/records/TRAIN_COMPLETE.json",
+    "original_fingerprint": "7306198129613323672785c5278858794bb13ea528da21be2bc2a960644705f0",
+    "completed_sessions": 142
+  }
+}

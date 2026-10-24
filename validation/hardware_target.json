@@ -1,0 +1,7 @@
+{
+  "user_reported": "A100 40GB x 16",
+  "vram_per_gpu": "40GB",
+  "scheduler": "not specified",
+  "portable_runner_topology": "one process, one GPU per experiment; no DDP/FSDP/tensor parallelism",
+  "gpu_test_executed": false
+}

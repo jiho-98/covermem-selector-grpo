@@ -1,0 +1,16 @@
+{
+  "job_id": 66188,
+  "server": "server3",
+  "gpus": 2,
+  "type": "H200",
+  "wall_time": "12:00:00",
+  "fingerprint": "3883680bff7bbb29e5749df81d3ffd13818706e345245fed6180861e01b4f2b5",
+  "submitted_at": "2026-10-19T22:16:40.082006+09:00",
+  "execution_order": [
+    "smoke",
+    "train",
+    "evaluate",
+    "analyze"
+  ],
+  "release_after_completion": true
+}

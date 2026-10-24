@@ -1,0 +1,24 @@
+# Inputs are transferred in the full ZIP, not Git.
+/assets/
+/adapters/
+/models/
+/runs/
+/orchestration/
+/.venv/
+/.conda/
+/.asset-import-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.zip
+*.safetensors
+*.pt
+*.bin
+.env
+.env.*
+*.pem
+*.key
+/PACKAGE_SHA256.json
+/validation/*
+!/validation/VALIDATION_KO.md
+!/validation/hardware_target.json

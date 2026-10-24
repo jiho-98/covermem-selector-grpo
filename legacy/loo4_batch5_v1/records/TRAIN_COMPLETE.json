@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "fingerprint": "7306198129613323672785c5278858794bb13ea528da21be2bc2a960644705f0",
+  "sessions_processed": 142,
+  "completed_sessions": 142,
+  "batches_processed": 30,
+  "optimizer_steps": 30,
+  "final_adapter": "/home/kimjh/Covermem/loo4_batch5_v1/runs/loo4_batch5/checkpoints/batch_000030/adapter",
+  "reward": "0.7 Complete + 0.3 Recall",
+  "qa_calls": 0,
+  "qg_calls": 0
+}

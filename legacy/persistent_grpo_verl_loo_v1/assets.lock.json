@@ -1,0 +1,26 @@
+{
+  "verl_tag": "v0.7.1",
+  "verl_commit": "bec9ef74768dd201881cd4e54cd0385e87caae27",
+  "qg_origin": "server2:/mnt/raid5/kimjh/Covermem/qg_deepseek_incremental_half_v5_server2/runs",
+  "sha256": {
+    "assets/QG_COMPLETE.json": "15ef2517d7d23bb15c4844a5b31b67217c700d5bec3e67d57247acb254fbfc0a",
+    "assets/split.json": "340ccbee8bff1cbdd6a73e5ff521cd92fe7088cbd7be528fd589a695bd3f8017",
+    "assets/histories.json": "271039c3c72877282a44cb38faa0ba4a31088cee8f741e9d152a02e43f3f1f10",
+    "assets/questions.json": "72239152e605132a839fcb50a84a7e6cd5d77f39f53f4a54c76c844e833aa656",
+    "frozen/covermem/memory.py": "6abc5790b0036abd3274002c9682d4b88f89f25852acfe8a50024da34603f35b",
+    "frozen/covermem/active_policy.py": "2162c75b62fd6689d9f7d3044dde2ed37320437fce7d53ab635fef46b8f0bc1b",
+    "frozen/covermem/policy_contract.py": "bfde5f24d18f5216645a1a3ae97649c348dca3250d5e47b59af4efab1a8df383",
+    "../raw43500char_thought_teacher_sft_v4/tokenizers/Qwen3-4B-Instruct-2507/merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+    "../raw43500char_thought_teacher_sft_v4/tokenizers/Qwen3-4B-Instruct-2507/tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3",
+    "../raw43500char_thought_teacher_sft_v4/tokenizers/Qwen3-4B-Instruct-2507/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "../raw43500char_thought_teacher_sft_v4/tokenizers/Qwen3-4B-Instruct-2507/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "../raw43500char_thought_teacher_sft_v4/tokenizers/Qwen3-4B-Instruct-2507/config.json": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+    "../models/Qwen3-4B-Instruct-2507/config.json": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+    "../models/Qwen3-4B-Instruct-2507/model.safetensors.index.json": "d6c42883a895dfef5b0080ed2116a1bcd764f558406b98923d675978a1abf29c",
+    "../models/Qwen3-4B-Instruct-2507/generation_config.json": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+    "frozen/eval_loader.py": "397c72d57a23c2f042958dc1ccf05abcd3b6fa89c46a078d92cd67a925453a44",
+    "frozen/reference_raw_evaluation.py": "15cee48f7c9c6db81c01da92d8d253bf7751b18da58dec58c6623e4f86734b21",
+    "assets/sft_eval_summary.json": "f97dff0e255b891ff64fd82ba94bfa72c03a2b3028c7dade0f12de503cb22a1b",
+    "assets/locomo10_eval.json": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4"
+  }
+}

@@ -1,0 +1,8 @@
+name: covermem-selector
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+# After activation, run bash scripts/setup_env.sh. Runtime lives in .venv.
+# CUDA wheel is pinned there; no system CUDA toolkit or conda CUDA is required.

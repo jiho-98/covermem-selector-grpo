@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "fingerprint": "45613e31ef726f128a12ece4ae95a4c0fd20deb90a8f18ea9af8aab417813cfd",
+  "sessions_processed": 142,
+  "optimizer_steps": 132,
+  "final_adapter": "/home/kimjh/Covermem/persistent_grpo_verl_loo_v1/runs/loo_v1/checkpoints/session_000142/adapter",
+  "reward": "0.7 Complete + 0.3 Recall",
+  "qa_calls": 0,
+  "qg_calls": 0
+}

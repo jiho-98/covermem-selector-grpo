@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "fingerprint": "3883680bff7bbb29e5749df81d3ffd13818706e345245fed6180861e01b4f2b5",
+  "sessions_processed": 142,
+  "optimizer_steps": 130,
+  "final_adapter": "/home/kimjh/Covermem/loo_future30_capacity90_20261019/runs/future30/checkpoints/session_000142/adapter",
+  "reward": "0.7 Complete + 0.3 Recall",
+  "qa_calls": 0,
+  "qg_calls": 0
+}
