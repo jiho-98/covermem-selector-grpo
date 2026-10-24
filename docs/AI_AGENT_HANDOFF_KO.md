@@ -20,7 +20,7 @@
 |---|---|
 | A/B 저장소 | [jiho-98/covermem-selector-grpo](https://github.com/jiho-98/covermem-selector-grpo) |
 | 세 번째 저장소 | [jiho-98/covermem-branch-grpo](https://github.com/jiho-98/covermem-branch-grpo) |
-| 어댑터·데이터 포함 full ZIP의 분할 파일 | [Google Drive 전달 폴더](https://drive.google.com/drive/folders/1C2iI8EUexJFjcIui8Xp5uAO-_QOxMdGF) |
+| 어댑터·데이터 포함 full ZIP의 분할 파일 | [A/B 폴더](https://drive.google.com/drive/folders/1U-sRqGiPvWDK5m0ozJzIaQNwMWuIyWFA) · [세 번째 폴더](https://drive.google.com/drive/folders/1esQN9iQvEdGWxDVirHcLZPcfAQYXIWqq) |
 | A/B 입력 검증 목록 | 해당 저장소 `INPUTS.sha256.json`: 19파일 |
 | 세 번째 입력 검증 목록 | 해당 저장소 `INPUTS.sha256.json`: 13파일 |
 
