@@ -14,6 +14,8 @@ REPLACE 실행 시 삭제 대상을 고르는 별도 LoRA를 학습하는 A/B �
 
 ## 먼저 읽기
 
+- **[AI 에이전트용 통합 인계서: A/B·세 번째 실험](docs/AI_AGENT_HANDOFF_KO.md)** — 실행 담당 에이전트는 루트 [AGENTS.md](AGENTS.md)부터 읽는다.
+- **[Google Drive 다운로드·분할 ZIP 복원](docs/DOWNLOAD_AND_RESTORE_KO.md)** — 최신 Git 코드에 어댑터·데이터만 가져오는 절차.
 - **[설치부터 A/B 실행·확인까지: 서버 실행 안내](docs/SERVER_RUNBOOK_KO.md)** — 처음 실행하는 분을 위한 명령 모음.
 - **[박사님께 전달할 메시지](docs/HANDOFF_MESSAGE_KO.md)** — 저장소/ZIP과 함께 전달할 본문.
 - [상세 운영 설명](README_KO.md) — 자원 할당 유지, 재개, 평가 범위.

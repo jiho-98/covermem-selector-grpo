@@ -1,5 +1,7 @@
 # CoverMem REPLACE 선택기 GRPO — 박사님 서버 전달본
 
+AI 에이전트는 [AGENTS.md](AGENTS.md)와 [통합 인계서](docs/AI_AGENT_HANDOFF_KO.md)부터 읽는다. [Drive 자료 다운로드·분할 복원](docs/DOWNLOAD_AND_RESTORE_KO.md)을 마친 뒤 아래 설치 절차를 따른다.
+
 처음 실행할 때는 [서버 실행 안내](docs/SERVER_RUNBOOK_KO.md)를 순서대로 따른다. GitHub 저장소는 [jiho-98/covermem-selector-grpo](https://github.com/jiho-98/covermem-selector-grpo)이며 코드/설정/문서를 제공한다. 아래 파일 목록의 데이터·어댑터·검증 로그는 **전체 ZIP에 포함**된다. Git clone에서는 `python3.10 scripts/import_assets.py --archive /실제/경로/CoverMem_selector_GRPO_AB_full.zip`으로 데이터와 어댑터를 가져온다.
 
 2026-10-24. 대상 서버는 **A100 40GB × 16장**이다. 이 전달본은 **실험당 GPU 1장·프로세스 1개**로 실행한다. 여러 GPU를 묶는 DDP/FSDP/텐서 병렬 코드는 포함하지 않는다. A, B, 기준선을 서로 다른 GPU에 배치할 수 있다.
